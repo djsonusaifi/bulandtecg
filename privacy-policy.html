@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BulandTech Privacy Policy - Information about how we collect, use and protect your data">
+    <meta name="robots" content="index, follow">
+    <title>Privacy Policy - BulandTech</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #6366f1;
+            --dark-color: #1e293b;
+            --text-color: #334155;
+            --gray-color: #64748b;
+            --light-color: #f8fafc;
+            --gradient-1: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.8;
+            color: var(--text-color);
+            background-color: var(--light-color);
+        }
+
+        .navbar {
+            background: white;
+            padding: 1rem 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--dark-color);
+            text-decoration: none;
+        }
+
+        .logo i {
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 2rem;
+        }
+
+        .highlight {
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            background: var(--gradient-1);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .back-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(99, 102, 241, 0.3);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .policy-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .policy-header h1 {
+            font-size: 2.5rem;
+            color: var(--dark-color);
+            margin-bottom: 1rem;
+        }
+
+        .policy-header .update-date {
+            color: var(--gray-color);
+            font-size: 0.95rem;
+        }
+
+        .policy-content {
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .policy-section {
+            margin-bottom: 2.5rem;
+        }
+
+        .policy-section h2 {
+            color: var(--primary-color);
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .policy-section h3 {
+            color: var(--dark-color);
+            font-size: 1.3rem;
+            margin: 1.5rem 0 0.8rem 0;
+        }
+
+        .policy-section p {
+            color: var(--text-color);
+            margin-bottom: 1rem;
+        }
+
+        .policy-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .policy-section li {
+            padding: 8px 0;
+            padding-left: 30px;
+            position: relative;
+            color: var(--text-color);
+        }
+
+        .policy-section li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+
+        .contact-box {
+            background: var(--light-color);
+            padding: 2rem;
+            border-radius: 15px;
+            border-left: 4px solid var(--primary-color);
+            margin-top: 2rem;
+        }
+
+        .contact-box h3 {
+            color: var(--dark-color);
+            margin-bottom: 1rem;
+        }
+
+        .contact-box p {
+            color: var(--text-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-box a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .policy-content {
+                padding: 2rem 1.5rem;
+            }
+
+            .policy-header h1 {
+                font-size: 2rem;
+            }
+
+            .policy-section h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-code"></i>
+                <span>Buland<span class="highlight">Tech</span></span>
+            </a>
+            <a href="index.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i>
+                Back to Home
+            </a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="policy-header">
+            <h1>Privacy Policy</h1>
+            <p class="update-date"><i class="fas fa-calendar"></i> Last Updated: October 2024</p>
+        </div>
+
+        <div class="policy-content">
+            <div class="policy-section">
+                <h2><i class="fas fa-shield-alt"></i> Privacy Policy / गोपनीयता नीति</h2>
+                <p>
+                    BulandTech ("हम", "हमारा") आपकी गोपनीयता का सम्मान करता है। यह Privacy Policy बताती है कि हम आपकी personal information को कैसे collect, use, और protect करते हैं जब आप हमारी website या services का उपयोग करते हैं।
+                </p>
+                <p>
+                    At BulandTech, we respect your privacy. This Privacy Policy explains how we collect, use, and protect your personal information when you use our website or services.
+                </p>
+            </div>
+
+            <div class="policy-section">
+                <h2><i class="fas fa-database"></i> Information We Collect / हम क्या जानकारी एकत्र करते हैं</h2>
+                
+                <h3>Personal Information / व्यक्तिगत जानकारी:</h3>
+                <ul>
+                    <li>Name / नाम</li>
+                    <li>Email Address / ईमेल पता</li>
+                    <li>Phone Number / फ़ोन नंबर</li>
+                    <li>Location/Address / स्थान/पता</li>
+                    <li>Business/Project Requirements / व्यवसाय/प्रोजेक्ट की आवश्यकताएं</li>
+                </ul>
+
+                <h3>Technical Information / तकनीकी जानकारी:</h3>
+                <ul>
+                    <li>IP Address / आईपी पता</li>
+                    <li>Browser Type and Version / ब्राउज़र प्रकार और संस्करण</li>
+                    <li>Device Information / डिवाइस की जानकारी</li>
+                    <li>Pages Visited / देखे गए पृष्ठ</li>
+                    <li>Time and Date of Visit / यात्रा का समय और तिथि</li>
+                </ul>
+            </div>
+
+            <div class="policy-section">
+                <h2><i class="fas fa-cogs"></i> How We Use Your Information / हम आपकी जानकारी का उपयोग कैसे करते हैं</h2>
+                <p>हम आपकी information को निम्नलिखित उद्देश्यों के लिए उपयोग करते हैं:</p>
+                <p>We use your information for the following purposes:</p>
+                <ul>
+                    <li>आपके inquiries और service requests का जवाब देने के लिए / To respond to your inquiries and service requests</li>
+                    <li>आपको हमारी services के बारे में जानकारी देने के लिए / To provide you with information about our services</li>
+                    <li>Projects और quotations को process करने के लिए / To process projects and quotations</li>
+                    <li>अपनी services को improve करने के लिए / To improve our services</li>
+                    <li>आपके साथ communicate करने के लिए / To communicate with you</li>
+                    <li>Marketing purposes (केवल आपकी permission के साथ) / For marketing purposes (only with your permission)</li>
+                </ul>
+            </div>
+
+            <div class="policy-section">
+                <h2><i class="fas fa-lock"></i> Data Security / डेटा सुरक्षा</h2>
+                <p>
+                    हम आपकी personal information की सुरक्षा के लिए प्रतिबद्ध हैं। हम reasonable technical और organizational measures लागू करते हैं:
+                </p>
+                <p>
+                    We are committed to protecting your personal information. We implement reasonable technical and organizational measures:
+                </p>
+                <ul>
+                    <li>Secure data encryption / सुरक्षित डेटा एन्क्रिप्शन</li>
+                    <li>Limited access to personal data / व्यक्तिगत डेटा तक सीमित पहुंच</li>
+                    <li>Regular security updates / नियमित सुरक्षा अपडेट</li>
+                    <li>Secure server infrastructure / सुरक्षित सर्वर बुनियादी ढांचा</li>
+                </ul>
+            </div>
+
+            <div class="policy-section">
+                <h2><i class="fas fa-share-alt"></i> Information Sharing / जानकारी साझा करना</h2>
+                <p>
+                    हम आपकी personal information को third parties के साथ sell, trade, या transfer नहीं करते हैं, सिवाय:
+                </p>
+                <p>
+                    We do not sell, trade, or transfer your personal information to third parties, except:
+                </p>
+                <ul>
+                    <li>जब आपने explicitly permission दी हो / When you have explicitly given permission</li>
+                    <li>Legal requirements को पूरा करने के लिए / To comply with legal requirements</li>
+                    <li>हमारी services provide करने के लिए trusted service providers (जैसे hosting providers) / Trusted service providers to deliver our services (e.g., hosting providers)</li>
+                </ul>
+            </div>
+
+            <div class="policy-section">
+                <h2><i class="fas fa-cookie-bite"></i> Cookies</h2>
+                <p>
+                    हमारी website cookies का उपयोग करती है ताकि आपके experience को enhance किया जा सके। Cookies छोटी files होती हैं जो आपके browser में store होती हैं।
+                </p>
+                <p>
+                    Our website uses cookies to enhance your experience. Cookies are small files stored in your browser.
+                </p>
+                <ul>
+                    <li>आपकी preferences को याद रखने के लिए / To remember your preferences</li>
+                    <li>Website traffic को analyze करने के लिए / To analyze website traffic</li>
+                    <li>User experience को improve करने के लिए / To improve user experience</li>
+                </ul>
+                <p>आप अपने browser settings में cookies को disable कर सकते हैं / You can disable cookies in your browser settings.</p>
+            </div>
+
+            <div class="policy-section">
+                <h2><i class="fas fa-user-check"></i> Your Rights / आपके अधिकार</h2>
+                <p>आपको निम्नलिखित अधिकार हैं / You have the following rights:</p>
+                <ul>
+                    <li>अपनी personal information तक access करने का / Right to access your personal information</li>
+                    <li>अपनी information को correct या update करने का / Right to correct or update your information</li>
+                    <li>अपनी information को delete करवाने का / Right to request deletion of your information</li>
+                    <li>Marketing communications से opt-out करने का / Right to opt-out of marketing communications</li>
+                    <li>Data portability का / Right to data portability</li>
+                </ul>
+            </div>
+
+            <div class="policy-section">
+                <h2><i class="fas fa-child"></i> Children's Privacy / बच्चों की गोपनीयता</h2>
+                <p>
+                    हमारी services 18 साल से कम उम्र के बच्चों के लिए नहीं हैं। हम जानबूझकर 18 साल से कम उम्र के बच्चों से personal information collect नहीं करते हैं।
+                </p>
+                <p>
+                    Our services are not intended for children under 18 years of age. We do not knowingly collect personal information from children under 18.
+                </p>
+            </div>
+
+            <div class="policy-section">
+                <h2><i class="fas fa-link"></i> Third-Party Links / तृतीय-पक्ष लिंक</h2>
+                <p>
+                    हमारी website में third-party websites के links हो सकते हैं। इन websites की अपनी privacy policies होती हैं। हम इन websites के content या practices के लिए जिम्मेदार नहीं हैं।
+                </p>
+                <p>
+                    Our website may contain links to third-party websites. These websites have their own privacy policies. We are not responsible for the content or practices of these websites.
+                </p>
+            </div>
+
+            <div class="policy-section">
+                <h2><i class="fas fa-edit"></i> Changes to Privacy Policy / गोपनीयता नीति में बदलाव</h2>
+                <p>
+                    हम समय-समय पर इस Privacy Policy को update कर सकते हैं। किसी भी बदलाव की जानकारी इस page पर post की जाएगी।
+                </p>
+                <p>
+                    We may update this Privacy Policy from time to time. Any changes will be posted on this page.
+                </p>
+            </div>
+
+            <div class="policy-section">
+                <h2><i class="fas fa-gavel"></i> Legal Compliance / कानूनी अनुपालन</h2>
+                <p>
+                    हम भारत के Information Technology Act, 2000 और अन्य applicable laws का अनुपालन करते हैं।
+                </p>
+                <p>
+                    We comply with India's Information Technology Act, 2000 and other applicable laws.
+                </p>
+            </div>
+
+            <div class="contact-box">
+                <h3><i class="fas fa-envelope"></i> Contact Us / हमसे संपर्क करें</h3>
+                <p>
+                    अगर आपके इस Privacy Policy के बारे में कोई questions हैं या आप अपने data rights को exercise करना चाहते हैं, तो कृपया हमसे संपर्क करें:
+                </p>
+                <p>
+                    If you have any questions about this Privacy Policy or wish to exercise your data rights, please contact us:
+                </p>
+                <p><strong>BulandTech</strong></p>
+                <p><i class="fas fa-phone"></i> Phone: <a href="tel:+918265999762">+91 82659 99762</a></p>
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:Theuntoldtales8265@gmail.com">Theuntoldtales8265@gmail.com</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> Address: Town And Post Bugrasi, Siyana, Disst Bulandshahr 203403, Uttar Pradesh, West India</p>
+            </div>
+
+            <div class="policy-section" style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #e2e8f0;">
+                <p style="text-align: center; color: var(--gray-color);">
+                    <strong>Consent / सहमति:</strong><br>
+                    हमारी website या services का उपयोग करके, आप इस Privacy Policy से सहमत होते हैं।<br>
+                    By using our website or services, you consent to this Privacy Policy.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

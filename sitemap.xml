@@ -6,7 +6,7 @@
 
     <!-- Home Page -->
     <url>
-        <loc>https://www.bulandtech.com/</loc>
+        <loc>https://www.bulandtech.in/</loc>
         <lastmod>2024-10-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
@@ -14,7 +14,7 @@
 
     <!-- Home Section -->
     <url>
-        <loc>https://www.bulandtech.com/#home</loc>
+        <loc>https://www.bulandtech.in/#home</loc>
         <lastmod>2024-10-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
@@ -22,7 +22,7 @@
 
     <!-- About Section -->
     <url>
-        <loc>https://www.bulandtech.com/#about</loc>
+        <loc>https://www.bulandtech.in/#about</loc>
         <lastmod>2024-10-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -30,7 +30,7 @@
 
     <!-- Services Section -->
     <url>
-        <loc>https://www.bulandtech.com/#services</loc>
+        <loc>https://www.bulandtech.in/#services</loc>
         <lastmod>2024-10-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
@@ -38,7 +38,7 @@
 
     <!-- Pricing Section -->
     <url>
-        <loc>https://www.bulandtech.com/#pricing</loc>
+        <loc>https://www.bulandtech.in/#pricing</loc>
         <lastmod>2024-10-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -46,7 +46,7 @@
 
     <!-- Contact Section -->
     <url>
-        <loc>https://www.bulandtech.com/#contact</loc>
+        <loc>https://www.bulandtech.in/#contact</loc>
         <lastmod>2024-10-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -54,7 +54,7 @@
 
     <!-- Privacy Policy Page -->
     <url>
-        <loc>https://www.bulandtech.com/privacy-policy.html</loc>
+        <loc>https://www.bulandtech.in/privacy-policy.html</loc>
         <lastmod>2024-10-30</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>

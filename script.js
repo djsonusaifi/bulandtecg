@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
     const preloader = document.getElementById('preloader');
     setTimeout(() => {
         preloader.classList.add('hidden');
-    }, 1500);
+    }, 2000); /* Increased timeout to allow new animations to complete */
 });
 
 // Initialize AOS Animation
@@ -496,5 +496,30 @@ if ('serviceWorker' in navigator) {
         // navigator.serviceWorker.register('/service-worker.js')
         //     .then(registration => console.log('SW registered:', registration))
         //     .catch(error => console.log('SW registration failed:', error));
+    });
+}
+
+// Download App Modal Functionality
+const downloadAppLink = document.getElementById('download-app-link');
+const downloadModal = document.getElementById('downloadModal');
+const closeButton = document.querySelector('.close-button');
+
+if (downloadAppLink && downloadModal && closeButton) {
+    downloadAppLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        downloadModal.style.display = 'block';
+        document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
+    });
+
+    closeButton.addEventListener('click', () => {
+        downloadModal.style.display = 'none';
+        document.body.style.overflow = ''; // Restore scrolling
+    });
+
+    window.addEventListener('click', (e) => {
+        if (e.target === downloadModal) {
+            downloadModal.style.display = 'none';
+            document.body.style.overflow = ''; // Restore scrolling
+        }
     });
 }

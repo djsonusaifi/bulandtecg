@@ -11,7 +11,6 @@
 - ✅ script.js
 - ✅ robots.txt
 - ✅ sitemap.xml
-- ✅ .htaccess
 - ✅ README.md
 
 ### Step 2: Open in VS Code / VS Code में खोलें
@@ -93,14 +92,14 @@
 **File:** `sitemap.xml`
 ```xml
 # बदलें: https://www.bulandtech.com/
-# अपने domain से: https://www.your-domain.com/
+# अपने domain से: https://bulandtech.in/
 ```
 
 ### 2. Update Your Domain in robots.txt
 **File:** `robots.txt`
 ```
 # बदलें: Sitemap: https://www.bulandtech.com/sitemap.xml
-# अपने domain से: Sitemap: https://www.your-domain.com/sitemap.xml
+# अपने domain से: Sitemap: https://bulandtech.in/sitemap.xml
 ```
 
 ### 3. Setup Google Analytics

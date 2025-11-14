@@ -354,7 +354,7 @@ bulandtech/
 
 📱 **Call/WhatsApp:** +91 82659 99762  
 📧 **Email:** Theuntoldtales8265@gmail.com  
-🌐 **Website:** [Coming Soon]
+🌐 **Website:** [https://bulandtech.in](https://bulandtech.in)
 
 ---
 

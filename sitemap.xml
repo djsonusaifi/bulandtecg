@@ -60,4 +60,54 @@
         <priority>0.5</priority>
     </url>
 
+    <!-- Service Pages -->
+    <url>
+        <loc>https://bulandtech.in/website-development.html</loc>
+        <lastmod>2024-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://bulandtech.in/app-development.html</loc>
+        <lastmod>2024-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://bulandtech.in/graphic-design.html</loc>
+        <lastmod>2024-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://bulandtech.in/video-editing.html</loc>
+        <lastmod>2024-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://bulandtech.in/music-production.html</loc>
+        <lastmod>2024-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://bulandtech.in/digital-marketing.html</loc>
+        <lastmod>2024-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://bulandtech.in/web-design.html</loc>
+        <lastmod>2024-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://bulandtech.in/submit-review.html</loc>
+        <lastmod>2024-10-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
 </urlset>

@@ -1,0 +1,19 @@
+# Netlify settings for bulandtech.in
+# The site is plain HTML — nothing to build. The command below only removes
+# files that should NOT be public (page generator and docs) before publishing.
+
+[build]
+  publish = "."
+  command = "rm -rf _tools .idea README.md QUICK-SETUP.md LICENSE netlify.toml"
+
+# Cache images and videos for a long time, pages for a short time
+[[headers]]
+  for = "/media/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

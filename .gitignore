@@ -1,0 +1,8 @@
+# Keep these on your computer only — they are NOT uploaded to the public GitHub repo.
+_tools/
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+Thumbs.db
+.DS_Store
